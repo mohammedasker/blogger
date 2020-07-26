@@ -32,6 +32,49 @@ const About = () => (
         {"  "}
         me today.
       </p>
+      <p>You can follow me on:</p>
+      <ul>
+        <li>
+          <a
+            href="https://twitter.com/mooasker"
+            target="_blank"
+            aria-label="Go to my Twitter profile"
+            rel="noopener noreferrer"
+          >
+            Twitter
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://github.com/mohammedasker"
+            target="_blank"
+            aria-label="Go to my Github profile"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://linkedin.com/in/mohdasker"
+            target="_blank"
+            aria-label="Go to my LinkedIn profile"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://dev.to/mohammedasker"
+            target="_blank"
+            aria-label="Go to my DEV profile"
+            rel="noopener noreferrer"
+          >
+            DEV
+          </a>
+        </li>
+      </ul>
     </div>
   </Layout>
 )
