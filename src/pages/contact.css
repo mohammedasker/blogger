@@ -1,0 +1,71 @@
+.contact-button {
+  background-color: white;
+  border: 1px solid #000000;
+  color: #000000;
+  padding: 12px;
+  width: 40%;
+  font-size: 0.7em;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 20px 0px 0px 0px;
+  transition: 0.2s;
+}
+
+.contact-button:hover {
+  background-color: #000000;
+  color: white;
+}
+
+.name,
+.email {
+  width: 93%;
+  height: 40px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid gray;
+}
+
+.message {
+  font-family: "Muli", sans-serif;
+  border-radius: 5px;
+  margin-top: 15px;
+  width: 93%;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  resize: none;
+  border: 1px solid gray;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .input-box {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .contact-form {
+    width: auto;
+  }
+
+  .message {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .name,
+  .email {
+    width: 48%;
+  }
+
+  .contact-button {
+    margin: auto;
+    display: block;
+  }
+}
