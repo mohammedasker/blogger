@@ -1,0 +1,82 @@
+.projects {
+  color: #000000;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.project-box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  margin-bottom: 50px;
+  padding: 10px;
+  width: 95%;
+  flex-basis: none;
+  transition: 0.2s;
+}
+
+.project-box h3 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#project-header {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.project-box:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#skills {
+  color: black;
+  text-align: center;
+  margin-bottom: 50px;
+  padding-top: 80px;
+}
+
+.skill-box {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.project-text {
+  font-size: 1em;
+  padding: 10px;
+}
+
+img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  margin: auto;
+  display: block;
+}
+
+.project-button {
+  background-color: white;
+  border: 1px solid #000000;
+  color: #000000;
+  padding: 12px;
+  width: 40%;
+  font-size: 0.7em;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 10px;
+  transition: 0.2s;
+}
+
+.project-button:hover {
+  background-color: black;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .project-box {
+    flex-basis: 45%;
+  }
+}
