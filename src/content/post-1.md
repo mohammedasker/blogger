@@ -1,45 +1,8 @@
 ---
-title: "This is such a long headline and i dont know what to write so i keep continiung"
+title: "My First Blog Post"
 date: "2019-03-17"
 draft: false
-path: "/blog/example-title"
----
-# H1
-
-## H2
-
-### H3
-
-#### H4
-
-##### H5
-
-###### H6
-
-Paragraph
-
+path: "/blog/My-First-Blog-Post"
 ---
 
-> This is a quote
-
----
-
-[Example.com](example.com)
-
----
-
-`const foo = bar`
-
-```javascript
-const foo = bar
-console.log(foo);
-```
-
----
-
-| Hello | World |
-|-------|------ |
-| Foo   | Bar   |
-
-
-
+Welcome to my first post of my blog. This is where I'd document everything I've learn about web development and programming in general.
