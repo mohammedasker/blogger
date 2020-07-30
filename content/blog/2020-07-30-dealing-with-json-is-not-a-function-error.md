@@ -1,6 +1,11 @@
 ---
 layout: blog
 title: Dealing with ".json() is not a function" Error
+slug: Dealing-with-"-json()-is-not-a-function"-Error
+description: You finished a tutorial about REST API, Ajax, or Fetch and now
+  you're ready to build a new project using API. Cool! You opened a new file in
+  text editor and start typing away until you encounter a problem. When you
+  write .json(), you will get the ".json() is not a function" error.
 date: 2020-07-30T07:22:54.699Z
 ---
 You finished a tutorial about REST API, Ajax, or Fetch and now you're ready to build a new project using API. Cool! You opened a new file in text editor and start typing away until you encounter a problem. When you write <code>.json()</code>, you will get the ".json() is not a function" error.
