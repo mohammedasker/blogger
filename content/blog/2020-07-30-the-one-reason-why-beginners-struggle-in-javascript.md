@@ -1,6 +1,10 @@
 ---
 layout: blog
 title: The One Reason Why Beginners Struggle in JavaScript
+slug: The-One-Reason-Why-Beginners-Struggle-in-JavaScript
+description: It's been one month since I begin learning JavaScript. Yes, I know
+  the first month is nothing and it will probably take me 6 months or more
+  before I start grasping the concepts of JavaScript.
 date: 2020-07-30T07:19:22.954Z
 ---
 It's been one month since I begin learning JavaScript. Yes, I know the first month is nothing and it will probably take me 6 months or more before I start grasping the concepts of JavaScript.
