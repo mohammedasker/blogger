@@ -1,6 +1,9 @@
 ---
 layout: blog
 title: "You Should Join the #100DaysOfCode Challenge!"
+slug: You-Should-Join-the-#100DaysOfCode-Challenge!
+description: Few days ago, I have successfully completed the 100 days of code
+  challenge! Woohoo!!
 date: 2020-07-30T07:19:55.342Z
 ---
 Few days ago, I have successfully completed the 100 days of code challenge! Woohoo!!
